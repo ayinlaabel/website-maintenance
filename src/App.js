@@ -1,23 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./maintenance-panel800600.gif";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="w-screen h-screen flex flex-col items-center justify-center">
+      <div className="w-[30rem]">
+        <img src={logo} alt="" />
+      </div>
+      <div className="h-[10rem] text-center">
+        <h1 className="text-3xl font-bold text-[#093f85]">We are Under Maintenance.</h1>
+        <p className="font-medium text-[#093f85]">Will be Back Soon!</p>
+      </div>
     </div>
   );
 }
